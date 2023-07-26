@@ -14,9 +14,11 @@ console.log('парні числа>>',i);
 }};
 
 //*3
-const increase = 70;
-for (let ii = 7; ii <= increase; ii += 7) {
-    console.log("множення на 7: ", ii);
+const numb = 7;
+
+for (let increase = 1; increase <= 10; increase +=1) {
+    const res = numb * increase;
+    console.log(`${numb} * ${increase} = ${res}`);
 }
 
 //*4
