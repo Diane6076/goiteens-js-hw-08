@@ -49,10 +49,10 @@ for (let ind = 0; numbers.length > ind; ind += 1) {
 };
 
 //*6
-let n = 10;
-for (let indexs = 0; indexs < n; indexs += 1) {
+let nom = 10;
+for (let indexs = 0; indexs < nom; indexs += 1) {
     console.log(indexs);
-    if (indexs >= n) {
+    if (indexs >= nom) {
         break
     }
 };
