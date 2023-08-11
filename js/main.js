@@ -40,8 +40,28 @@ while (index < array.length) {
 
 //*5
 
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,];
+for (let ind = 0; numbers.length > ind; ind += 1) {
+  if (ind === 7) {
+    break;
+}
+    console.log("ind: ",numbers[ind]);
+}
 
 //*6
-
+let n = 10;
+for (let indexs = 0; indexs < n; indexs += 1) {
+    console.log(indexs);
+    if (indexs >= n) {
+        break
+    }
+}
 
 //*7
+const multipleThree = 20;
+for (let thre = 0; thre <= multipleThree; thre += 1) {
+  if (thre % 3 === 0) {
+    continue;
+  }
+  console.log("thre: ", thre);
+}
