@@ -64,5 +64,5 @@ for (let thre = 0; thre <= multipleThree; thre += 1) {
   if (thre % 3 === 0) {
     continue;
   }
-  console.log("thre: ", thre);
+ console.log("thre: ", thre);
 };
